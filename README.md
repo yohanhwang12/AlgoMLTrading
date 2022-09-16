@@ -12,7 +12,12 @@ When running the SVC model with a 3 month interval, we got the following results
    macro avg       0.48      0.49      0.41      4092
 weighted avg       0.49      0.54      0.44      4092
 
+<br>
+Here is the plot:
+<br>
+![Default values 3 months 4 days short 100 days long](default_values.png)
 
+<br>
 Here is at 6 months:
               precision    recall  f1-score   support
 
@@ -57,6 +62,7 @@ weighted avg       0.47      0.54      0.43      3425
 
 Better to keep long at 100.
 
+<br>
 Classification Tree:
               precision    recall  f1-score   support
 
@@ -68,5 +74,6 @@ Classification Tree:
 weighted avg       0.51      0.44      0.30      3405
 
 Results not that great.
+Here is the plot:<br>
 
-
+![Classification Tree Results](classification_tree.png)
